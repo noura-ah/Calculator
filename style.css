@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+#calculator{
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    max-width: fit-content;
+    padding: 15px;
+}
+
+button {
+    background-color: #666666;
+    /* border: 1px solid #666666; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    color: white;
+    padding-top: 2px;
+}
+
+.operator{
+    background-color: #FF8C00;
+}
+
+#equals{
+    width: 100%;
+    border-radius: 50px;
+    background-color: #CCCCCC;
+    color: black;
+}
+
+#display{
+    text-align: right;
+}
